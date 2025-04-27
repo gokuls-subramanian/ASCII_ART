@@ -11,11 +11,13 @@ def load_ascii_frames(file_path):
 
 @app.route('/')
 def home():
-    return """Welcome to ASCII Live Server! Try following command in your console.
+
+    print("""Welcome to ASCII Live Server! Try following command in your console.
             1-curl https://ascii-art-78y3.onrender.com/sigmamale \n
             2-curl https://ascii-art-78y3.onrender.com/Gigachad  \n
             3-curl https://ascii-art-78y3.onrender.com/Trollface \n
-            4-curl https://ascii-art-78y3.onrender.com/Dancing"""
+            4-curl https://ascii-art-78y3.onrender.com/Dancing""")
+    return ""
 
 @app.route('/<name>')
 def stream_ascii(name):
