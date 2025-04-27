@@ -20,6 +20,7 @@ def stream_ascii(name):
         'gigachad': 'Asciiarts/Gigachad.txt',
         'andrewtate': 'Asciiarts/Andrewtate.txt',
         'trollface': 'Asciiarts/Trollface.txt',
+        'dancing': 'Asciiarts/Dancing.txt'
     }
 
     if name not in options:
